@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import {Route,Routes,BrowserRouter} from 'react-router-dom';
+import Home from '../src/Component/Home'
+import Service1 from '../src/Component/Services/Service1'
+import Service2 from '../src/Component/Services/Service2'
+import Service3 from '../src/Component/Services/Service3'
+import Service4 from './Component/Services/Service4.js'
+import Service5 from './Component/Services/Service5.js'
+import Service6 from './Component/Services/Service6.js'
+import Contact from './Component/ContactUs.js';
+import AML from './Component/AML';
+import KYC from './Component/KYC';
+import PP from './Component/P&P';
+import Wdis from './Component/Wdis';
+import WCI from './Component/WCI';
+import About from './Component/About';
+import Performence from './Component/Performence';
+import Aregis from './Component/Aregis';
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>  
+      <Routes>  
+        <Route path="/" element={<Home/>} />
+        <Route path='/Service1' element={< Service1 />}/>
+        <Route path='/Service2' element={< Service2 />}/>
+        <Route path='/Service3' element={< Service3 />}/>
+        <Route path='/Service4' element={< Service4 />}/>
+        <Route path='/Service5' element={< Service5 />}/>
+        <Route path='/Service6' element={< Service6 />}/>
+        <Route path='/ContactUs' element={< Contact />}/>
+        <Route path='/AML' element={< AML />}/>
+        <Route path='/KYC' element={< KYC />}/>
+        <Route path='/PP' element={< PP />}/>
+        <Route path='/Wdis' element={< Wdis />}/>
+        <Route path='/WCI'  element={< WCI />}/>
+        <Route path='/About'  element={< About />}/>
+        <Route path='/Performence'  element={< Performence />}/>
+        <Route path='/Aregis'  element={< Aregis />}/>
+
+
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 

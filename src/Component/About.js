@@ -54,9 +54,9 @@ function About() {
                     <li><Link class="dropdown-item" to='/KYC'>KYC</Link></li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <span id='gayab'><button type="button" id='gayab' class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               Sign In
-            </button>
+            </button></span>
 
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -82,7 +82,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <p>Give a call <Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+            <span id='gayab'><p>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p></span>
         </div>
       </div>
         <div id='top'>

@@ -54,9 +54,9 @@ function Home() {
                     <li><Link class="dropdown-item" to='/KYC'>KYC</Link></li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <span id='gayab'><button type="button" id='gayab' class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               Sign In
-            </button>
+            </button></span>
 
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -82,13 +82,13 @@ function Home() {
                 </div>
               </div>
             </div>
-            <p>Give a call <Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+            <span id='gayab'><p>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p></span>
         </div>
       </div>
       <div id="top1">
         <div id="p">
-            <h4>Welcome to Stock Market Investing</h4>
-            <h3>A FINTECH PLATFORM WITH 15,000+ INVESTORS</h3>
+            <h3>Welcome to Stock Market Investing</h3>
+            <h2>A FINTECH PLATFORM WITH 15,000+ INVESTORS</h2>
         </div>
         <form onSubmit={handelSubmit} method='post'>
           <div class="mb-3">
@@ -219,6 +219,7 @@ function Home() {
         </div>
         <img src="https://www.researchandranking.com/assets/right_mob2.png" alt="" />
       </div>
+      <br />
       <div id="top0">
         <img src="https://www.researchandranking.com/assets/mispriced_mob2.png" alt="" />
         <div id="leftalign">
@@ -322,6 +323,7 @@ function Home() {
             <Link className='links' to='/WCI'>Who Can Invest</Link><br />
           </div>
         </div>
+        <br />
         <div id="ll">
           <h4>© Trade Fisher</h4>
           <h5> SEBI Registered Research & Resource Details:</h5>
@@ -332,16 +334,20 @@ function Home() {
           <br />
           <div id="fadd">
             <div className="address">
+              <h2>Gurgaon Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, South West Delhi, Gurgaon 110037</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Gujrat Office</h2>
+
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, AK Road Gujrat 395008</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Bihar Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, Chapra Bihar 841301</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
@@ -356,7 +362,7 @@ function Home() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://i.imgur.com/MlTeCzJ.png" alt="none"/>
+            <img src="https://i.imgur.com/MlTeCzJ.png" height={50} alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

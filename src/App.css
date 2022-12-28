@@ -1,5 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #nav{
-  padding: 0px 50px;
+  padding: 0px 7.8vmin;
   display: flex;
   justify-content: space-between;
   height: 10%;
@@ -7,46 +12,46 @@
   
 }
 #leftnav{
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 18px;
+  font-size: 2.5vmin;
+  /* color: #1f1f22; */
   
 }
 #leftnav img{
-  margin-top: 20px;
-  width: 90px;
+  margin-top: 3.125vmin;
+  width: 14vmin;
 }
 #nav #leftnav a{
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 3.125vmin;
+  margin-top: 3.125vmin;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 
 #nav #rightnav{
-  margin-bottom: 20px;
+  margin-bottom: 3.125vmin;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 2.5vmin;
 }
 
 #nav #rightnav .link{
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 4.6vmin;
+  margin-left: 3.125vmin;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
   text-decoration: none;
 }
 #nav #rightnav button{
-  padding: 10px;
+  padding: 1.6vmin;
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 6.25vmin;
+  margin-left: 3vmin;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
   text-decoration: none;
@@ -54,28 +59,30 @@
 #nav #rightnav p{
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 7.8vmin;
+  margin-left: 3.125vmin;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: flex;
   text-decoration: none;
 }
 #nav #rightnav p a{
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 3.125vmin;
   color: blue;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
   text-decoration: none;
 }
 #dropdown{
-  padding: 18px;
+  padding: 3.125vmin;
+}
+.dropdown-menu{
+  font-size: 1.9vmin;
 }
 
 #top1{
-  padding: 100px 50px;
-  margin-top: 20px;
+  padding: 15.625vmin 7.8vmin;
+  margin-top: 3.125vmin;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -84,13 +91,13 @@
   height: 70%;
   width: 90%;
   background-image: url('https://www.jsalaw.com/wp-content/uploads/2020/07/latest-developments-by-sebi-on-account.jpg');
-  /* box-shadow: inset 0 0 10px #68aef3; */
-  margin-left: 65px;
+  margin-left: 10.1vmin;
   /* background-color: #b3ebfd; */
 }
+  /* box-shadow: inset 0 0 1.5vmin #68aef3; */
 #top0{
-  padding: 100px 50px;
-  margin-top: 20px;
+  padding: 15.625vmin 7.8vmin;
+  margin-top: 3.125vmin;
   /* color: white; */
   display: flex;
   justify-content: space-between;
@@ -99,15 +106,15 @@
   height: 70%;
   width: 90%;
   /* background-image: url('https://www.jsalaw.com/wp-content/uploads/2020/07/latest-developments-by-sebi-on-account.jpg'); */
-  box-shadow: inset 0 0 10px #68aef3;
-  margin-left: 65px;
+  box-shadow: inset 0 0 1.5vmin #68aef3;
+  margin-left: 10.1vmin;
   background-color: lavender;
 }
 #top1 form{
   width: 30%;
 }
 #top1 input{
-  padding: 10px;
+  padding: 1.5vmin;
 }
 #top2{
   height: 10%;
@@ -115,7 +122,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 100px;
+  padding: 7.8vmin 15.625vmin;
 }
 #top2 p{
   text-align: center;
@@ -124,13 +131,13 @@
   text-align: center;
 }
 #centered{
-  padding: 50px 100px;
+  padding: 7.8vmin 15.625vmin;
   text-align: center;
   background-color: #b3ebfd;
 }
 #centered1{
-  margin: 20px 300px;
-  padding: 20px;
+  margin: 3.125vmin 46.8vmin;
+  padding: 3.125vmin;
   text-align: center;
   border: 1px solid black;
 }
@@ -148,27 +155,27 @@
 #four{
   display: flex;
   justify-content: space-around;
-  padding: 0px 50px;
+  padding: 0px 7.8vmin;
 }
 
 #four .first{
   text-align: center;
-  box-shadow: inset 0 0 10px #b3ebfd;
-  padding: 50px 20px;
-  height: 400px;
-  width: 350px;
+  box-shadow: inset 0 0 1.5vmin #b3ebfd;
+  padding: 7.8vmin 3.125vmin;
+  height: 62.5vmin;
+  width: 37.8vmin;
   /* background-color: red; */
 }
 #btnc{
   text-align: center;
-  padding: 10px 25px;
+  padding: 1.5vmin 3.9vmin;
   margin-left: 43%;
 }
 #lastp{
   background-color: #1f1f22;
   color: #E7E7E7;
-  margin-top: 20px;
-  padding: 20px 50px;
+  margin-top: 3.125vmin;
+  padding: 3.125vmin 7.8vmin;
 }
 #lastp #ltop{
   display: flex;
@@ -178,7 +185,7 @@
   display: flex;
 }
 #lastp #ltop #links img{
-  height: 40px;
+  height: 6.25vmin;
 }
 #lastp #mid{
   display: flex;
@@ -188,22 +195,22 @@
 #lastp #mid .links{
   text-decoration: none;
   color: #E7E7E7;
-  line-height: 35px;
+  line-height: 5.5vmin;
 }
 #phone{
-  margin: 50px;
-  padding: 30px;
+  margin: 7.8vmin;
+  padding: 4.6vmin;
   background-color: #b3ebfd;
   text-align: center;
 }
 #phone h1{
   color: red;
-  font-size: 65px;
+  font-size: 10.1vmin;
   font-family: Arial, Helvetica, sans-serif;
 }
 #phone input{
-  padding: 15px;
-  border-radius: 5px;
+  padding: 3.24vmin;
+  border-radius: 0.75vmin;
 }
 #phone #bcolor{
   color: green;
@@ -214,31 +221,238 @@
   align-items: center;
 }
 #fadd .address{
-  margin-left: 15px;
+  margin-left: 2.34vmin;
 }
 #top3{
   text-align: center;
-  padding: 40px;
-  margin: 50px;
+  padding: 6.25vmin;
+  margin: 7.8vmin;
   background-color: lavender;
 }
 #top3 p{
-  font-size: 60px;
+  font-size: 9.3vmin;
   color: #2b3169;
 }
 #top3 #ser{
   display: flex;
   flex-flow: wrap;
-  margin-top: 40px;
+  margin-top: 6.25vmin;
   align-items: center;
   justify-content: space-evenly;
 }
 #top3 #ser .boxes{
   text-align: center;
   background-color: white;
-  padding: 50px;
+  padding: 7.8vmin;
 }
 #top3 hr{
   width: 100%;
   color: lavender;
+}
+
+@media(max-width: 500px){
+  #nav{
+    padding: 0px 4vmin;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    
+  }
+  #leftnav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2.5vmin;
+    /* color: #1f1f22; */
+    
+  }
+  #leftnav img{
+    margin-top: 3.125vmin;
+    width: 12vmin;
+  }
+  
+  #nav #rightnav{
+    margin-bottom: 3.125vmin;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5vmin;
+  }
+  #gayab{
+    display: none;
+  }
+  
+  #nav #rightnav .link{
+    display: flex;
+    align-items: center;
+    margin-top: 4.6vmin;
+    margin-left: 1vmin;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+  }
+  #nav #rightnav p{
+      /* display: flex;
+      align-items: center; */
+      margin: 0%;
+    margin-top: 6vmin;
+    margin-left: 1vmin;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+  #nav #rightnav p a{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: blue;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+  }
+  #dropdown{
+    padding: 1vmin;
+  }
+  .dropdown-menu{
+    font-size: 2.5vmin;
+  }
+  #top1{
+    padding: 5.625vmin 5vmin;
+    margin-top: 3.125vmin;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    background-image: url('https://www.jsalaw.com/wp-content/uploads/2020/07/latest-developments-by-sebi-on-account.jpg');
+    margin-left: 0vmin;
+    /* background-color: #b3ebfd; */
+  }
+  #top1 form{
+    width: 80vw;
+  }
+  #top1 input{
+    padding: 1.5vmin;
+  }
+  #top2{
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    font-size: 17px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.8vmin 3.625vmin;
+  }
+  #top2 p{
+    text-align: center;
+  }
+  #top3{
+    text-align: center;
+    padding: 6.25vmin;
+    margin: 0vmin;
+    background-color: lavender;
+  }
+  #top3 p{
+    font-size: 9.3vmin;
+    color: #2b3169;
+  }
+  #top3 #ser{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 6.25vmin;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #top3 #ser .boxes{
+    text-align: center;
+    background-color: white;
+    padding: 24vmin;
+    margin-bottom: 4vmin;
+  }
+  #top3 hr{
+    display: none;
+  }
+  #top0{
+    padding: 10.625vmin 7.8vmin;
+    margin-top: 0vmin;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    height: 70%;
+    width: 100%;
+    /* background-image: url('https://www.jsalaw.com/wp-content/uploads/2020/07/latest-developments-by-sebi-on-account.jpg'); */
+    box-shadow: inset 0 0 1.5vmin #68aef3;
+    margin-left: 0vmin;
+    background-color: lavender;
+  }
+  #four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 7.8vmin;
+  }
+  
+  #four .first{
+    text-align: center;
+    box-shadow: inset 0 0 1.5vmin #b3ebfd;
+    padding: 7.8vmin 3.125vmin;
+    height: 40.5vmax;
+    width: 100%;
+    /* background-color: red; */
+  }
+  #phone{
+    margin: 0vmin;
+    padding: 4.6vmin;
+    background-color: #b3ebfd;
+    text-align: center;
+  }
+  #lastp{
+    background-color: #1f1f22;
+    color: #E7E7E7;
+    margin-top: 3.125vmin;
+    padding: 5vmin 5vmin;
+  }
+  #lastp #ltop{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #lastp #ltop #links{
+    display: flex;
+  }
+  #lastp #ltop #links img{
+    height: 6.25vmin;
+  }
+  #lastp #mid{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+  }
+  #lastp #mid .links{
+    text-decoration: none;
+    color: #E7E7E7;
+    line-height: 5.5vmin;
+  }
+  #fadd{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+  #fadd .address{
+    margin-left: 2.34vmin;
+  }
+  #centered1{
+    margin: 5vmin;
+    padding: 3.125vmin;
+    text-align: center;
+    border: 1px solid black;
+  }
 }

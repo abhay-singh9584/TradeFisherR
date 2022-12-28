@@ -1,7 +1,7 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React from 'react'
 import { Link, useLocation,useNavigate } from 'react-router-dom'
-import qs from 'qs'
+// import qs from 'qs'
 import { useState } from 'react';
 
 function Aregis() {
@@ -26,12 +26,16 @@ function Aregis() {
     // bodyFormData.append(registerdata)
     const option={
         method:'POST',
-        data: qs.stringify(registerdata),
-        headers:{'content-type':'application/x-www-form-urlencoded'},
-        url:'http://localhost:3001/register'
+        body: JSON.stringify(registerdata),
+        headers:{'Content-Type':'application/json'},
     }
-    axios(option)
-    
+    const res=fetch('https://tradefisher-ee752-default-rtdb.firebaseio.com/userRecord.json',option)
+    if(res){
+      alert('Data Stored')
+    }
+    else{
+      alert('Not Stored')
+    }
   return (
     <div>
         <div id="nav">

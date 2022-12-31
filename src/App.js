@@ -14,9 +14,12 @@ import KYC from './Component/KYC';
 import PP from './Component/P&P';
 import Wdis from './Component/Wdis';
 import WCI from './Component/WCI';
-import About from './Component/About';
+import About from './Component/About'; 
 import Performence from './Component/Performence';
 import Aregis from './Component/Aregis';
+import React, { useCallback, useEffect, useState } from 'react'
+import { storage } from '../src/Component/firebase'
+import { getDownloadURL, listAll, ref } from 'firebase/storage';
 
 
 
@@ -24,10 +27,35 @@ import Aregis from './Component/Aregis';
 
 
 function App() {
+
+  const [title, settitle] = useState([]);
+  // var imgList=useMemo(() => title, [title]);
+  // Find all the prefixes and items.
+
+
+  const fetchData= useCallback(()=>{
+      const listRef = ref(storage, 'gs://tradefisher-29821.appspot.com/Resource');
+      listAll(listRef)
+      .then((res) => {
+        res.items.forEach((itemRef) => {
+          getDownloadURL(itemRef)
+          .then((url) => {
+            if(title.indexOf(url)===-1){
+              settitle([...title,url])
+            }
+          })
+        });
+      }).catch((error) => {});
+      console.log(title.length)
+    },[title])
+    useEffect(() => {
+      fetchData()
+    }, [fetchData])
+
   return (
     <BrowserRouter>  
       <Routes>  
-        <Route path="/" element={<Home/>} />
+        <Route path="/"  element={<Home/>} />
         <Route path='/Service1' element={< Service1 />}/>
         <Route path='/Service2' element={< Service2 />}/>
         <Route path='/Service3' element={< Service3 />}/>
@@ -41,7 +69,7 @@ function App() {
         <Route path='/Wdis' element={< Wdis />}/>
         <Route path='/WCI'  element={< WCI />}/>
         <Route path='/About'  element={< About />}/>
-        <Route path='/Performence'  element={< Performence />}/>
+        <Route path='/Performence'  element={< Performence name={title} />}/>
         <Route path='/Aregis'  element={< Aregis />}/>
 
 

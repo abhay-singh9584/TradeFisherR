@@ -22,16 +22,69 @@ function Contact() {
     <main>
          <div id="nav">
         <div id="leftnav">
-            <img src="https://i.imgur.com/MlTeCzJ.png" alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
+
+        <div class="container-fluid" id='responsive'>
+          {/* <a class="navbar-brand" href="#">Offcanvas navbar</a> */}
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div id="leftnav">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+                  <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mb-3">
+                  <Link to="/About" class="link">About</Link>
+                </li>
+                <li class="nav-item mb-3">
+                  <Link class="dropdown link" id='dropdown' to='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </Link>
+                
+                  <ul class="dropdown-menu dropdown-menu-primary">
+                      <li><Link class="dropdown-item" to='/Service1'>Equity Market Intraday</Link></li>
+                      <li><Link class="dropdown-item" to='/Service2'>Commodity Market Intraday</Link></li>
+                      <li><Link class="dropdown-item" to='/Service3'>Option & Future Market Intraday</Link></li>
+                      <li><Link class="dropdown-item" to='/Service4'>Potfolio Management Service</Link></li>
+                      <li><Link class="dropdown-item" to='/Service5'>Combo Service</Link></li>
+                      <li><Link class="dropdown-item" to='/Service6'>Dhanwan Service</Link></li>
+                  </ul>
+                </li>
+                <li class="nav-item mb-3">
+                  <Link to="/Performence" class="link">Performance</Link>
+                </li>
+                <li class="nav-item dropdown mb-3">
+                  <Link class="dropdown link" id='dropdown' to='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resource
+                  </Link>
+                  <ul class="dropdown-menu dropdown-menu-primary">
+                      <li><Link class="dropdown-item" to="/ContactUs">Contact Us</Link></li>
+                      <li><Link class="dropdown-item" to='/WCI'>Who Can Invest</Link></li>
+                      <li><Link class="dropdown-item" to='/KYC'>KYC</Link></li>
+                  </ul>
+                </li>
+              </ul>
+              <p id='call'>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+            </div>
+          </div>
+        </div>
+
         <div id="rightnav">
             <Link to="/About" class="link">About</Link>
             <div class="dropdown">
                 <Link class="dropdown link" id='dropdown' to='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Service
                 </Link>
-              
                 <ul class="dropdown-menu dropdown-menu-primary">
                     <li><Link class="dropdown-item" to='/Service1'>Equity Market Intraday</Link></li>
                     <li><Link class="dropdown-item" to='/Service2'>Commodity Market Intraday</Link></li>
@@ -251,7 +304,7 @@ function Contact() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://i.imgur.com/MlTeCzJ.png" alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

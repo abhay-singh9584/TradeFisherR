@@ -253,7 +253,7 @@
   color: lavender;
 }
 
-@media(max-width: 500px){
+@media(max-width: 1000px){
   #nav{
     padding: 0px 4vmin;
     display: flex;
@@ -290,19 +290,27 @@
   #nav #offcanvasNavbar{
     text-decoration: none;
     width: 80%;
+    font-weight: 600;
+    /* position: fixed; */
     text-align: left;
   } 
   #nav #offcanvasNavbar a{
     text-decoration: none;
     line-height: 3.125vmin;
   } 
+  .offcanvas-body{
+    margin-top: 25vmin;
+    position: fixed;
+    font-weight: 100;
+  }
   #call{
-    font-size: 5.125vmin;
-    margin-top: 150%;
+    font-size: 4.8vmin;
+    margin-top: 170%;
   }
 
-  #dropdown{
-    padding: 1vmin;
+  #dropdown.dropdown.link{
+    padding: 0vmin;
+    margin-right: 1vmin;
   } 
   .dropdown-menu{
     font-size: 2.5vmin;
@@ -418,6 +426,11 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+  #lastp #ltop a{
+    text-decoration: none;
+    color: #E7E7E7;
+
   }
   #lastp #ltop #links{
     display: flex;

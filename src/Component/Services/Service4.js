@@ -74,7 +74,9 @@ function Contact() {
                   </ul>
                 </li>
               </ul>
-              <p id='call'>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+              <h2 id='call'><b>Contact Us</b></h2>
+              <p><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
+              <p><a href="tel:+917999286562">+91 7999286562</a></p>
             </div>
           </div>
         </div>
@@ -143,8 +145,8 @@ function Contact() {
             <p>Potfolio Management  <br /> Service</p>
         </section>
         <div id="para">
-            <p>Welcome to the Masteresearch Commodity Market Services to get Commodity or Gold Silver CurdeOil Market tips on technical basis, in this segment we gives only Intraday or BTST or STBT positions, we gives daily 3-4 calls in this segment, Mastersearch will give all calls on technical basis after anyalsis on charts through experence team of Masteresearch.</p>
-            <p>Masteresearch belive in honest and actual services, we are very serious about stock market investors or traders, we promise to give our services to our all clients through whatsapp or call, masteresearch gives 1 week demo first then only ask you to join, its request to everyone dont join us without seeing our free trial or 1 week demo.</p>
+            <p>Welcome to the Tradefisher Portfolio Management Services to get Portfolio or Gold Silver CurdeOil Market tips on technical basis, in this segment we gives only Intraday or BTST or STBT positions, we gives daily 3-4 calls in this segment, Tradefisher will give all calls on technical basis after anyalsis on charts through experence team of Tradefisher.</p>
+            <p>Tradefisher belive in honest and actual services, we are very serious about stock market investors or traders, we promise to give our services to our all clients through whatsapp or call, Tradefisher gives 1 week demo first then only ask you to join, its request to everyone dont join us without seeing our free trial or 1 week demo.</p>
             <p>We are very very genuine company and in stock market no one is like us, you can try us you will never ever get this kind of services in India.</p>
         </div>
         <br /><br />
@@ -236,8 +238,8 @@ function Contact() {
         </p>
         <div id="lastp">
         <div id="ltop">
-          <p><h5>Call Us:</h5>+91 7000554885</p>
-          <p><h5>Email:</h5>support@tradefisher.in</p>
+          <p><h5>Call Us:</h5><a href="tel:+917999286562">+91 7999286562</a></p>
+          <p><h5>Email:</h5><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
           <div id="links">
             <h5>Follow Us:</h5>
             {/* <Link><img src="https://www.researchandranking.com/assets/fb_ico.png" alt="" /></Link> */}
@@ -270,6 +272,7 @@ function Contact() {
             <Link className='links' to='/WCI'>Who Can Invest</Link><br />
           </div>
         </div>
+        <br />
         <div id="ll">
           <h4>© Trade Fisher</h4>
           <h5> SEBI Registered Research & Resource Details:</h5>
@@ -280,16 +283,20 @@ function Contact() {
           <br />
           <div id="fadd">
             <div className="address">
+              <h2>Gurgaon Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, South West Delhi, Gurgaon 110037</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Gujrat Office</h2>
+
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, AK Road Gujrat 395008</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Bihar Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, Chapra Bihar 841301</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
@@ -304,7 +311,7 @@ function Contact() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" height={50} alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

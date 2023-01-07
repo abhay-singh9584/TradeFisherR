@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 
 function Home() {
+
   const navigate=useNavigate()
   const [data,setdata]=useState({name:'',number:'',email:''})
   const changeHandler=(e)=>{
@@ -13,10 +14,9 @@ function Home() {
   }
   const handelSubmit=(e)=>{
     e.preventDefault()
-    // setdata({...data,name:e.target.name.value,email:e.target.email.value,number:e.target.number.value1});
-    // console.log(data);
     navigate('/Aregis',{state:data})
   }
+  
   return (
     <main>
       <div id="nav">
@@ -73,7 +73,9 @@ function Home() {
                   </ul>
                 </li>
               </ul>
-              <p id='call'>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+              <h2 id='call'><b>Contact Us</b></h2>
+              <p><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
+              <p><a href="tel:+917999286562">+91 7999286562</a></p>
             </div>
           </div>
         </div>
@@ -291,10 +293,10 @@ function Home() {
         </div>
       </div>
       <div id="centered">
-        <h1>Benefits of Investing in Stock Market with <br />Research & Ranking</h1>
+        <h1>Benefits of Investing in Stock Market with <br />Trade Fisher</h1>
         <br />
         <br />
-        <p>We are a preferred stock advisory company for 28,000+ investors worldwide, who trust us when it comes to creating wealth by investing in <br />equities. We work relentlessly to offer you an unrivalled investing experience and fulfill your goals.</p>
+        <p>We are a preferred stock advisory company for 28,000+ investors worldwide, who trust us when it comes to creating wealth by investing in <br />all segments. We work relentlessly to offer you an unrivalled investing experience and fulfill your goals.</p>
       </div>
       <div id="four">
         <div className="first">
@@ -342,8 +344,8 @@ function Home() {
       </div>
       <div id="lastp">
         <div id="ltop">
-          <p><h5>Call Us:</h5>+91 7000554885</p>
-          <p><h5>Email:</h5>support@tradefisher.in</p>
+          <p><h5>Call Us:</h5><a href="tel:+917999286562">+91 7999286562</a></p>
+          <p><h5>Email:</h5><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
           <div id="links">
             <h5>Follow Us:</h5>
             {/* <Link><img src="https://www.researchandranking.com/assets/fb_ico.png" alt="" /></Link> */}
@@ -378,7 +380,7 @@ function Home() {
         </div>
         <br />
         <div id="ll">
-          <h4>© Trade Fisher</h4>
+          <h3>© Trade Fisher</h3>
           <h5> SEBI Registered Research & Resource Details:</h5>
           <p>Registered Name: Trade Fisher Research Private Limited</p>
           <p>Type of Registration: Non-Individual</p>

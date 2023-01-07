@@ -20,7 +20,7 @@ function AML() {
   }
   return (
     <div>
-        <div id="nav">
+      <div id="nav">
         <div id="leftnav">
             <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
@@ -74,7 +74,9 @@ function AML() {
                   </ul>
                 </li>
               </ul>
-              <p id='call'>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p>
+              <h2 id='call'><b>Contact Us</b></h2>
+              <p><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
+              <p><a href="tel:+917999286562">+91 7999286562</a></p>
             </div>
           </div>
         </div>
@@ -139,16 +141,16 @@ function AML() {
             <span id='gayab'><p>Give a call<Link to="tel:+91 7999286562">+91 7999286562</Link></p></span>
         </div>
       </div>
-        <div id='top'>
+      <div id='top'>
             <h1>Website Disclaimer</h1>
-        </div>
-        <p id='centered'>
+      </div>
+      <p id='centered'>
         Equentis Wealth Advisory Services Private Limited (hereinafter referred as “Equentis” or “the Company”) is an Investment Advisory Company. Use of the information herein is at one's own risk. Equentis has taken due care and caution in compilation of data for its web site. The views and investment recommendations expressed by investment experts on Equentis are their own, and not that of the website or its management. Equentis does not guarantee the consistency, adequacy or completeness of any information and is not responsible for any errors or omissions or for the results obtained from the use of such information. By accessing www.tradefisher.in, you have read, understood and agree to be legally bound by the terms of the following disclaimer and user agreement. Equentis especially states that it has no financial liability whatsoever to any user on account of the use of information provided on its website. The information on this website is updated from time to time. Equentis however excludes any warranties (whether expressed or implied), as to the quality, consistency, efficacy, completeness, performance, fitness or any of the contents of the website, including (but not limited) to any comments, feedback and advertisements contained within the Site.            
-        </p>
-        <div id="lastp">
+      </p>
+      <div id="lastp">
         <div id="ltop">
-          <p><h5>Call Us:</h5>+91 7000554885</p>
-          <p><h5>Email:</h5>support@tradefisher.in</p>
+          <p><h5>Call Us:</h5><a href="tel:+917999286562">+91 7999286562</a></p>
+          <p><h5>Email:</h5><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
           <div id="links">
             <h5>Follow Us:</h5>
             {/* <Link><img src="https://www.researchandranking.com/assets/fb_ico.png" alt="" /></Link> */}
@@ -181,6 +183,7 @@ function AML() {
             <Link className='links' to='/WCI'>Who Can Invest</Link><br />
           </div>
         </div>
+        <br />
         <div id="ll">
           <h4>© Trade Fisher</h4>
           <h5> SEBI Registered Research & Resource Details:</h5>
@@ -191,16 +194,20 @@ function AML() {
           <br />
           <div id="fadd">
             <div className="address">
+              <h2>Gurgaon Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, South West Delhi, Gurgaon 110037</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Gujrat Office</h2>
+
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, AK Road Gujrat 395008</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
+              <h2>Bihar Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, Chapra Bihar 841301</p>
                 <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
@@ -215,7 +222,7 @@ function AML() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" height={50} alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

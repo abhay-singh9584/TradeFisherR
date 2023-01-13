@@ -21,10 +21,9 @@ function Home() {
     <main>
       <div id="nav">
         <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+            <img src="https://i.imgur.com/YzJ1oD9.png" alt="none"/>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
-
         <div class="container-fluid" id='responsive'>
           {/* <a class="navbar-brand" href="#">Offcanvas navbar</a> */}
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -417,7 +416,7 @@ function Home() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" height={50} alt="none"/>
+            <img src="https://i.imgur.com/YzJ1oD9.png" height={50} alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

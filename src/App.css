@@ -181,6 +181,10 @@
   display: flex;
   justify-content: space-between;
 }
+#lastp #ltop .clink{
+  text-decoration: none;
+  color: #E7E7E7;
+}
 #lastp #ltop #links{
   display: flex;
 }

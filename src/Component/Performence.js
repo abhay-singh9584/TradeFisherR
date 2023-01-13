@@ -41,7 +41,7 @@ function Performence(props) {
     <div>
         <div id="nav">
         <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+            <img src="https://i.imgur.com/YzJ1oD9.png" alt="none"/>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
 
@@ -55,7 +55,7 @@ function Performence(props) {
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <div id="leftnav">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" alt="none"/>
+                  <img src="https://i.imgur.com/YzJ1oD9.png" alt="none"/>
                   <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -241,7 +241,7 @@ function Performence(props) {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/xyz.png?alt=media&token=944bf04b-19a3-4805-a475-9f6692beadf7" height={50} alt="none"/>
+            <img src="https://i.imgur.com/YzJ1oD9.png" height={50} alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

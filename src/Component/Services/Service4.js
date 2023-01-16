@@ -22,7 +22,7 @@ function Contact() {
     <main>
          <div id="nav">
         <div id="leftnav">
-            <img src="https://i.imgur.com/YzJ1oD9.png" alt="none"/>
+            
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
 
@@ -36,7 +36,7 @@ function Contact() {
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <div id="leftnav">
-                  <img src="https://i.imgur.com/YzJ1oD9.png" alt="none"/>
+                  
                   <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -285,20 +285,20 @@ function Contact() {
             <div className="address">
               <h2>Gurgaon Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, South West Delhi, Gurgaon 110037</p>
-                <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
+                <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
               <h2>Gujrat Office</h2>
 
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, AK Road Gujrat 395008</p>
-                <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
+                <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
               <h2>Bihar Office</h2>
                 <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, Chapra Bihar 841301</p>
-                <p>Telephone: +91 7672359232 | Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved. | GSTIN : 27BBDCE9006E1ZV</p>
+                <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
           </div>
@@ -311,7 +311,7 @@ function Contact() {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://i.imgur.com/YzJ1oD9.png" height={50} alt="none"/>
+            
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

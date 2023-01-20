@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 import {Route,Routes,BrowserRouter} from 'react-router-dom';
+import WebFont from 'webfontloader';
+
 import Home from '../src/Component/Home'
 import Service1 from '../src/Component/Services/Service1'
 import Service2 from '../src/Component/Services/Service2'
@@ -51,6 +53,14 @@ function App() {
     useEffect(() => {
       fetchData()
     }, [fetchData])
+
+    useEffect(() => {
+      WebFont.load({
+        google: {
+          families: ['Product Sans', 'Chilanka']
+        }
+      });
+     }, []);
 
   return (
     <BrowserRouter>  

@@ -238,8 +238,8 @@ function Contact() {
         </p>
         <div id="lastp">
         <div id="ltop">
-          <p><h5>Call Us:</h5><a href="tel:+917999286562">+91 7999286562</a></p>
-          <p><h5>Email:</h5><a href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
+          <p><h5>Call Us:</h5><a className='clink' href="tel:+917999286562">+91 7999286562</a></p>
+          <p><h5>Email:</h5><a className='clink' href = "mailto:support@tradefisher.in">support@tradefisher.in</a></p>
           <div id="links">
             <h5>Follow Us:</h5>
             {/* <Link><img src="https://www.researchandranking.com/assets/fb_ico.png" alt="" /></Link> */}

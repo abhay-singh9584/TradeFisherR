@@ -256,6 +256,10 @@
   width: 100%;
   color: lavender;
 }
+#llll{
+  margin-left: 10px;
+  margin-top: 40px;
+}
 
 @media(max-width: 1000px){
   #nav{

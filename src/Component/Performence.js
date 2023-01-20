@@ -41,7 +41,7 @@ function Performence(props) {
     <div>
         <div id="nav">
         <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.jpg?alt=media&token=119103cf-6bdc-4f6c-9dab-da880cdd8930" alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.png?alt=media&token=4a557974-246f-4f49-8e0d-19e6b4978901" alt="none"/>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
 
@@ -55,7 +55,7 @@ function Performence(props) {
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <div id="leftnav">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.jpg?alt=media&token=119103cf-6bdc-4f6c-9dab-da880cdd8930" alt="none"/>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.png?alt=media&token=4a557974-246f-4f49-8e0d-19e6b4978901" alt="none"/>
                   <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -241,7 +241,7 @@ function Performence(props) {
           <hr />
           <br />
           <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.jpg?alt=media&token=119103cf-6bdc-4f6c-9dab-da880cdd8930" height={50} alt="none"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.png?alt=media&token=4a557974-246f-4f49-8e0d-19e6b4978901"  alt="none"/>
             <div id="llll">
               <p>Trade Fisher <br /> Research & Resource</p>
             </div>

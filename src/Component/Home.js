@@ -21,7 +21,7 @@ function Home() {
     <main>
       <div id="nav">
         <div id="leftnav">
-            <img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.png?alt=media&token=4a557974-246f-4f49-8e0d-19e6b4978901" alt="none"/>
+        <Link to="/"><img src="https://firebasestorage.googleapis.com/v0/b/tradefisher-29821.appspot.com/o/Trade_Fisher.png?alt=media&token=4a557974-246f-4f49-8e0d-19e6b4978901" alt="none"/></Link>
             <Link to="/">Trade Fisher<br />Resarch & Resource</Link>
         </div>
         <div class="container-fluid" id='responsive'>

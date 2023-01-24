@@ -176,7 +176,6 @@ function Contact() {
                     <li>Finally, huge profits and peace of mind.</li>
                     <li>Client satisfaction is our main moto.</li>
                     <li>Technically strong advise.</li>
-                    <li>Technically strong advise.</li>
                 </div>
                 {/* <div className="dpart">
                     <ul><h1>Calls Format</h1></ul>

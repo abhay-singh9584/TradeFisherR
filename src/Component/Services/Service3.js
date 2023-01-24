@@ -175,7 +175,7 @@ function Contact() {
                     <li>Advice from experts only.</li>
                     <li>Finally, huge profits and peace of mind.</li>
                     <li>Client satisfaction is our main moto.</li>
-                    <li>Technically strong advise.</li>
+                    
                     <li>Technically strong advise.</li>
                 </div>
                 {/* <div className="dpart">

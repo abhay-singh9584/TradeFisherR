@@ -30,7 +30,7 @@ function Aregis() {
         body: JSON.stringify(registerdata),
         headers:{'Content-Type':'application/json'},
     }
-    const res=fetch('https://tradefisher-29821-default-rtdb.firebaseio.com/userRecord.json',option)
+    const res=fetch('https://first1-45bc9-default-rtdb.asia-southeast1.firebasedatabase.app/userRecord.json',option)
     if(res){
       console.log('Data Stored')
     }

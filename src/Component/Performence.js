@@ -31,7 +31,9 @@ function Performence(props) {
       console.log(l);
         return(
         <div className="box mb-5" key={index}>
+          <a href={l}>
             <img src={l} alt="" />
+          </a>
             {/* <h3>{l.title}</h3> */}
             {/* <button onClick={()=>CancelHandeler(index)}>Close</button> */}
         </div>

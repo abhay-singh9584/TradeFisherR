@@ -7,6 +7,7 @@
 #boxes{
     padding: 5vmax;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     /* width: 1000px;
     background-color: aquamarine; */
@@ -19,7 +20,7 @@
     /* float: left; */
 }
 #boxes .box img{
-    width: 80%;
+    height: 50vh;
 }
 @media(max-width: 500px){
     #boxes .box img{

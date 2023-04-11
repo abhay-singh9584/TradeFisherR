@@ -30,8 +30,8 @@ function Performence(props) {
     var box=props.name.map((l,index)=>{
       console.log(l);
         return(
-        <div className="box mb-5" key={index}>
-          <a href={l}>
+        <div className="box" key={index}>
+          <a href={l} target="_blank" rel="noopener noreferrer">
             <img src={l} alt="" />
           </a>
             {/* <h3>{l.title}</h3> */}
@@ -223,13 +223,13 @@ function Performence(props) {
             <div className="address">
               <h2>Gujrat Office</h2>
 
-                <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, AK Road Gujrat 395008</p>
+                <p>Trade Fisher Research Private Limited, Adajan Colony, Sector A, AK Road Gujrat 395008</p>
                 <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
             <div className="address">
               <h2>Bihar Office</h2>
-                <p>Address: Trade Fisher Research Private Limited, Marathon Futurex, A-603 6th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel East, Chapra Bihar 841301</p>
+                <p>Address: Trade Fisher Research Private Limited, Siram Chak, Chapra Bihar 841301</p>
                 <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>

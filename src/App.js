@@ -42,6 +42,7 @@ function App() {
       listAll(listRef)
       .then((res) => {
         res.items.forEach((itemRef) => {
+          console.log(itemRef)
           getDownloadURL(itemRef)
           .then((url) => {
             if(title.indexOf(url)===-1){
@@ -50,7 +51,7 @@ function App() {
           })
         });
       }).catch((error) => {});
-      console.log(title.length)
+      // console.log(title.length)
     },[title])
     useEffect(() => {
       fetchData()

@@ -215,7 +215,7 @@ function AML() {
             </div>
             <div className="address">
               <h2>Bihar Office</h2>
-                <pAddress: Trade Fisher Research Private Limited, Siram Chak, Chapra Bihar 841301</p>
+                <p>Address: Trade Fisher Research Private Limited, Siram Chak, Chapra Bihar 841301</p>
                 <p>Email: support@tradefisher.in | © Copyright 2021 Trade Fisher Research Pvt. Ltd. All Rights Reserved.</p>
                 {/* <p>Principal Officer: Manish Goel, Email: manish@equentis.com, +91 22 61013800</p> */}
             </div>
